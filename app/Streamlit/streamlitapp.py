@@ -18,7 +18,7 @@ def nettoyagecomplet(x):
     res=''
     t=1
     for i in range(len(x)):
-            if x[i] =='0' or x[i] =='1'or x[i] =='2'or x[i] =='3'or x[i] =='4'or x[i] =='5'or x[i] =='6'or x[i] =='7'or x[i] =='8'or x[i] =='9'or x[i] =='.':
+            if x[i] =='0' or x[i] =='1'or x[i] =='2'or x[i] =='3'or x[i] =='4'or x[i] =='5'or x[i] =='6'or x[i] =='7'or x[i] =='8'or x[i] =='9'or x[i] =='.'or x[i] =='-':
                 res+=x[i]
             elif x[i]=='B':
                 t=1000000000
