@@ -9,7 +9,7 @@ Cette application est faite en 3 parties:
 - Une partie **Mongodb** pour stocker les informations
 - Une partie **Streamlit.io** qui permet d'afficher un site dynamique pour visualiser les informations
 
-***User-guide***
+***#### User-guide ####***
 
 **Git**
 
@@ -57,7 +57,7 @@ les informations une par une.
 <img src="/Image/Graphique.JPG" alt="Graphique"/>
 
 
-**Dev Guide**
+***#### Dev Guide ####***
 
 Pour le **Scraping**:
 
