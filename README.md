@@ -77,6 +77,8 @@ dans la pipelines (pipelines.py).
 On peut donc rajouter des informations en complétant coinmarker_spider.py et items.py
 Cette partie est lancé conteneur app qui lance à intervalle de temps régulier le crawler.
 
+*Important* Les données proviennent du site: **https://cryptonaute.fr/crypto-monnaie/**
+
 Pour le **Mongodb**:
 
 On initialise son image sur les ports 27017 pour ensuite pouvoir s'y connecté dans les différents programme sur le localhost.
