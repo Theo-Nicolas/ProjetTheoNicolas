@@ -3,3 +3,5 @@ streamlit
 pymongo==3.6.1
 pandas
 schedule
+plotly.express
+matplotlib
