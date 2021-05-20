@@ -2,7 +2,4 @@ scrapy==2.4.1
 streamlit
 pymongo==3.6.1
 pandas
-numpy
-matplotlib
-plotly
 schedule
