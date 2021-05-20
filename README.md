@@ -90,4 +90,7 @@ fonctions pour nettoyer les données de mongodb qui ne sont pas sous la forme de
 On récupére tous les noms des 50 cryptos et on récupère leurs informations pour les mettre dans un dataframe et ensuite on peut
 les afficher sous forme de tableau.
 
+
+
+
 Projet réalisé par **Théo Nicolas** dans le cadre de l'unité DSIA-4201C de l'****ESIEE-Paris****
