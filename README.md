@@ -39,6 +39,6 @@ Enfin vous pouvez aller voir l'application sur une page web à cette adresse :
 
 **Application Web**
 
-![Screenshot](Image/Avant.jpg)
+![Screenshot](../Image/Avant.jpg)
 
 
