@@ -9,7 +9,7 @@ Cette application est faite en 3 parties:
 - Une partie **Mongodb** pour stocker les informations
 - Une partie **Streamlit.io** qui permet d'afficher un site dynamique pour visualiser les informations
 
-***Installation***
+***User-guide***
 
 **Git**
 
@@ -55,3 +55,25 @@ Enfin il y'a une option graphique pour comparé les crypto-monnaies entre-elles 
 les informations une par une.
 
 <img src="/Image/Graphique.JPG" alt="Graphique"/>
+
+
+**Dev Guide**
+
+Pour le **Scraping**:
+
+On utilise un crawler, pour récupérer les informations en css dans le spider (coinmarker_spider.py), on choisit les différents 
+éléments sur le site scrapé et on les ajoute dans la classe items (items.py) et ensuite ces items sont envoyés dans la base de données mongodb
+dans la pipelines (pipelines.py).
+On peut donc rajouter des informations en complétant coinmarker_spider.py et items.py
+Cette partie est lancé conteneur app qui lance à intervalle de temps régulier le crawler.
+
+Pour le **Mongodb**:
+
+On initialise son image sur les ports 27017 pour ensuite pouvoir s'y connecté dans les différents programme sur le localhost.
+
+Pour l' **App**:
+
+On utilise le conteneur streamlit pour lancer le programme python streamlitapp.io, cette application est composé de différentes
+fonctions pour nettoyer les données de mongodb qui ne sont pas sous la forme de nombre (pour les graphiques).
+On récupére tous les noms des 50 cryptos et on récupère leurs informations pour les mettre dans un dataframe et ensuite on peut
+les afficher sous forme de tableau.
