@@ -1,0 +1,30 @@
+version: "3"
+
+services:
+  streamlit:
+    build: .
+    command: "streamlit run app/Streamlit/streamlitapp.py"
+    ports:
+        - "8501:8501"
+    links:
+      - mongodb_project
+    depends_on:
+      - mongodb_project
+      
+  mongodb_project:
+    image: mongo:4.0.8
+    ports:
+      - '27017:27017'
+  
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      #- .:/code
+      - .:/app
+    #network_mode: host
+    depends_on:
+      - mongodb_project
+    command: python app.py
+
