@@ -27,7 +27,7 @@ Ensuite après avoir lancé **Docker**, il faut ouvrir la console/invite de comm
 Vous devez ensuite aller dans le dossier du projet puis,
 lancez l'application avec la commande:
 
-docker-compose up -d --build
+**docker-compose up -d --build**
 
 **Website**
 
@@ -35,5 +35,8 @@ Enfin vous pouvez aller voir l'application sur une page web à cette adresse :
 
 **http://localhost:8501/**
 
+
+
+**Dev Guide**
 
 
