@@ -59,6 +59,16 @@ les informations une par une.
 
 ***#### Dev Guide ####***
 
+
+Les modules utilisées sont les suivant:
+- scrapy==2.4.1
+- streamlit
+- pymongo==3.6.1
+- pandas
+- schedule
+- plotly.express
+- matplotlib
+
 Pour le **Scraping**:
 
 On utilise un crawler, pour récupérer les informations en css dans le spider (coinmarker_spider.py), on choisit les différents 
