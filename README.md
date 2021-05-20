@@ -1,6 +1,6 @@
 # ProjetData_Engineering
 
-***Presentation***
+***#### Presentation ####***
 
 Cette application permet d'avoir en temps réel les informations de base sur les 50 principales crypto-monnaies. On peut ainsi choisir celles qu'on souhaite voir. Ensuite on peut voir sur 24h son bénéfice et voir combien représente une somme de crypto-monnaie.
 
@@ -37,7 +37,7 @@ Enfin vous pouvez aller voir l'application sur une page web à cette adresse :
 
 
 
-**Application Web**
+**#### Application Web ####**
 
 <img src="/Image/Avant.JPG" alt="Avant"/>
 
