@@ -41,4 +41,11 @@ Enfin vous pouvez aller voir l'application sur une page web à cette adresse :
 
 <img src="/Image/Avant.JPG" alt="Avant"/>
 
+On peut utiliser le bouton pour afficher la tendance actuelle du marché.
+
+Ensuite on va pouvoir choisir les crypto-monnaies que l'on souhaite voir/utiliser avec un menu déroulant.
+Cela permet ensuite d'afficher le tableau avec les informations des crypto choisies, ensuite on demande
+à l'utilisateur le nombre qu'il possède pour celles choisies mais il n'est pas obligé de les remplir.
+
+<img src="/Image/Calculateur.JPG" alt="calculateur"/>
 
