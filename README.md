@@ -49,3 +49,9 @@ Cela permet ensuite d'afficher le tableau avec les informations des crypto chois
 
 <img src="/Image/Calculateur.JPG" alt="calculateur"/>
 
+Et on récupére le bénéfice et la valeur de crypto-monnaie possédée.
+
+Enfin il y'a une option graphique pour comparé les crypto-monnaies entre-elles avec un graphe en bar pour comparé 
+les informations une par une.
+
+<img src="/Image/Graphique.JPG" alt="Graphique"/>
