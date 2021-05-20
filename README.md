@@ -39,6 +39,6 @@ Enfin vous pouvez aller voir l'application sur une page web à cette adresse :
 
 **Application Web**
 
-<img src="/Image/Graphique.png" alt="My cool logo"/>
+<img src="/Image/Graphique.PNG" alt="Graphique"/>
 
 
