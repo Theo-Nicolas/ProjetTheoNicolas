@@ -11,7 +11,29 @@ Cette application est faite en 3 parties:
 
 ***Installation***
 
-*Git*
+**Git**
 
 Pour commencer, vous devez utiliser 
-git clone https://
+git clone https://github.com/Theo-Nicolas/ProjetTheoNicolas.git
+
+
+**Docker**
+
+Docker est nécessaire pour utiliser l'application,
+vous pouvez l'installer via ce lien https://www.docker.com/get-started
+
+Ensuite après avoir lancé **Docker**, il faut ouvrir la console/invite de commande:
+
+Vous devez ensuite aller dans le dossier du projet puis,
+lancez l'application avec la commande:
+
+docker-compose up -d --build
+
+**Website**
+
+Enfin vous pouvez aller voir l'application sur une page web à cette adresse :
+
+**http://localhost:8501/**
+
+
+
